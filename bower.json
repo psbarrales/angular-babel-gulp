@@ -1,0 +1,23 @@
+{
+  "name": "angular-babel-gulp",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Pablo Barrales <psbarrales@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-ui-router": "^1.0.11",
+    "lodash": "^4.17.4",
+    "angular-material": "^1.1.5"
+  }
+}

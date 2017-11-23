@@ -1,0 +1,7 @@
+bower_components
+node_modules
+dist
+
+.tmp
+.DS_Store
+.vs_code
