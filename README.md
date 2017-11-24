@@ -10,6 +10,7 @@ There is a Makefile for this:
 * `make image`: Build a image for develop
 * `make serve`: Lift app on port 3000 in develop
 * `make dist`: Build image with nginx
+* `make test`: Unit testing with PhantomJS
 * `make lift`: Lift app on production
 
 ### Running with Gulp
@@ -17,4 +18,5 @@ There is a Makefile for this:
 * `yarn` or `npm install`
 * `bower install`
 * `gulp serve`: To lift app on port 3000 in develop
+* `gulp test`: To run unit testing
 * `gulp dist`: Build app on dist folder
