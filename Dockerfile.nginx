@@ -1,0 +1,9 @@
+FROM nginx:alpine
+MAINTAINER Pablo Barrales <pablo.barrales@peanuthub.cl>
+
+# COPY FILES
+WORKDIR /usr/share/nginx/html
+COPY ./dist /usr/share/nginx/html
+
+# START SERVICE NGINX
+CMD nginx -g 'daemon off;'

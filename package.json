@@ -3,6 +3,13 @@
 	"version": "1.0.0",
 	"main": "index.js",
 	"license": "MIT",
+	"scripts": {
+		"build": "gulp build",
+		"serve": "gulp serve",
+		"docker:image": "make image",
+		"docker:build": "make build",
+		"docker:serve": "make serve"
+	},
 	"devDependencies": {
 		"babel-core": "^6.26.0",
 		"babel-preset-env": "^1.6.1",

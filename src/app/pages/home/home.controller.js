@@ -1,7 +1,9 @@
 (() => {
-	'use strict';
+    'use strict';
 
-	angular.module('app.pages').controller('HomeController', HomeController);
+    angular.module('app.pages').controller('HomeController', HomeController);
 
-	function HomeController() {}
+    function HomeController($log) {
+        $log.debug('HomeController')
+    }
 })();

@@ -4,6 +4,8 @@
 	angular
 		.module('app', [ 'ui.router', 'ngMaterial', 'app.core', 'app.pages' ])
 		.run($log => {
+			$log.debug('Running from Docker!');
+
 			$log.debug(
 				`%cA%cngular%cJS v${angular.version.full}`,
 				'background: #dd1c16; font-weight: bold; color: white; padding-right: 3px; padding-left: 3px;',
