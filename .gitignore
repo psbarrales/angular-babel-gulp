@@ -1,7 +1,11 @@
 bower_components
 node_modules
 dist
+coverage
 
 .tmp
 .DS_Store
 .vs_code
+
+yarn.lock
+package-lock.json
